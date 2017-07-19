@@ -79,6 +79,9 @@
                         <a class="page-scroll" href="#pricing">Pricing</a>
                     </li>
                     <li>
+                        <a class="page-scroll" href="#appointment">Book Appointment</a>
+                    </li>
+					<li>
                         <a class="page-scroll" href="#contact">Contact</a>
                     </li>
                 </ul>
@@ -399,6 +402,72 @@ challenging for any family member. </br></br>That’s where caregivers24 can hel
         </div>
 		</div>
     </section>
+	
+	<section id="appointment">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2 class="section-heading">Book An Appointment</h2>
+					      <p><a href="#"><span class="glyphicon glyphicon-edit"></span></a></p>
+                    <hr class="primary">
+					<form class="text-center" method="post" action="#">
+						
+						<div class="form-group col-lg-3 col-md-3 col-sm-3 col-xs-12">
+							<label for="name" class="cols-sm-2 control-label">Your Name</label>
+							<div class="cols-sm-10">
+								<div class="input-group">
+									<span class="input-group-addon"><i class="fa fa-user fa" aria-hidden="true"></i></span>
+									<input type="text" class="form-control" name="name" id="name"  placeholder="full name"/>
+								</div>
+							</div>
+						</div>
+
+						<div class="form-group col-lg-3 col-md-3 col-sm-3 col-xs-12">
+							<label for="email" class="cols-sm-2 control-label">Your Email</label>
+							<div class="cols-sm-10">
+								<div class="input-group">
+									<span class="input-group-addon"><i class="fa fa-envelope fa" aria-hidden="true"></i></span>
+									<input type="text" class="form-control" name="email" id="email"  placeholder="xyz@gmail.com"/>
+								</div>
+							</div>
+						</div>
+
+						<div class="form-group col-lg-3 col-md-3 col-sm-3 col-xs-12">
+							<label for="text" class="cols-sm-2 control-label">Phone Number</label>
+							<div class="cols-sm-10">
+								<div class="input-group">
+									<span class="input-group-addon"><i class="fa fa-phone fa" aria-hidden="true"></i></span>
+									<input type="text" class="form-control" name="phone_no" id="phone_no"  placeholder="+91-XXXXXXXXXX"/>
+								</div>
+							</div>
+						</div>
+
+						<div class="form-group col-lg-3 col-md-3 col-sm-3 col-xs-12">
+							<label for="date" class="cols-sm-2 control-label">Booking Date</label>
+							<div class="cols-sm-10">
+								<div class="input-group">
+									<span class="input-group-addon"><i class="fa fa-calendar fa-lg" aria-hidden="true"></i></span>
+									<input type="date" class="form-control" name="password" id="password" />
+								</div>
+							</div>
+						</div>
+
+						<div class="form-group col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                            <label for="name">Message</label>
+                            <textarea name="message" id="message" class="form-control" rows="9" cols="25" required="required"
+                                placeholder="Message"></textarea>
+                        </div>
+						<div class="row col-lg-12">
+						<div class="form-group col-lg-3 col-md-3 col-sm-3 col-xs-12 col-md-offset-5 col-sm-offset-5 ">
+							<a href="http://deepak646.blogspot.in" target="_blank" type="button" id="button" class="btn btn-primary btn-lg btn-block login-button">Book Now</a>
+						</div>
+						</div>
+						
+					</form>
+                </div>
+            </div>
+        </div>
+    </section>
 
     <section id="contact" class="bg-color">
         <div class="container">
@@ -500,9 +569,6 @@ google.maps.event.addDomListener(window, 'load', initialize);
 	color: white !important;
 } 
 
-.table>tbody>tr>td{
-	border-top: 1px solid rgba(111, 191, 54, 0.17) !important;
-}
 .address-class{
 	font-size:14px;
 	line-height:20px;
@@ -510,9 +576,10 @@ google.maps.event.addDomListener(window, 'load', initialize);
 .bg-color{
 	background:#f7f7f7;
 }
-.sr-green{
-	color:#f05f40;
+.text-center .form-group{
+	text-align:left;
 }
+
 
 
 </style>
